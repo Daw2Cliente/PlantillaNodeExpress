@@ -1,0 +1,32 @@
+project-name/
+├── config/
+│   ├── db.js                # Configuración de la conexión a la base de datos MySQL
+│   ├── appConfig.js         # Configuración general (puertos, direcciones IP, etc.)
+├── public/                  # Archivos públicos accesibles por el navegador
+│   ├── css/
+│   │   ├── styles.css       # Estilos CSS
+│   ├── js/
+│   │   ├── scripts.js       # Lógica del lado del cliente
+│   ├── images/              # Imágenes y recursos estáticos
+├── routes/                  # Rutas de la aplicación
+│   ├── index.js             # Ruta principal
+│   ├── users.js             # Ejemplo de rutas relacionadas con usuarios
+├── views/                   # Archivos HTML/EJS (plantillas si usas EJS)
+│   ├── index.html           # Página principal
+│   ├── about.html           # Otra página HTML
+├── controllers/             # Lógica de las rutas (controladores)
+│   ├── userController.js    # Controlador para usuarios
+│   ├── authController.js    # Controlador para autenticación
+├── models/                  # Modelos para interactuar con la base de datos
+│   ├── User.js              # Modelo para usuarios
+│   ├── Task.js              # Otro modelo (tareas, por ejemplo)
+├── middleware/              # Middlewares personalizados
+│   ├── authMiddleware.js    # Middleware para autenticación
+│   ├── errorHandler.js      # Middleware para manejo de errores
+├── node_modules/            # Dependencias instaladas con npm
+├── .env                     # Variables de entorno (credenciales sensibles)
+├── .gitignore               # Archivos y carpetas a ignorar por Git
+├── package.json             # Metadatos del proyecto y dependencias
+├── package-lock.json        # Bloqueo de versiones de dependencias
+├── server.js                # Punto de entrada del servidor
+└── README.md                # Documentación del proyecto
